@@ -16,7 +16,7 @@ public class GreeterTest {
     @DisplayName("Given the time is 21, return Good Evening")
     void givenTheTimeis21ReturnGoodEvening() {
         int time = 21;
-//        int commit = 1;
+        int commit = 1;
         String expected = "Good evening";
         String answer = Greeter.getGreeting(time);
 
