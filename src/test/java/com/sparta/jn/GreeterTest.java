@@ -5,17 +5,18 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class GreeterTest {
-    // all tests are public
+     //all tests are public
 //    @Test
 //    @DisplayName("This is my first test")
-////    void firstTest() {
-////        Assertions.assertEquals(1,2);
-////    }
+//    void firstTest() {
+//        Assertions.assertEquals(1,2);
+//    }
 
     @Test
     @DisplayName("Given the time is 21, return Good Evening")
     void givenTheTimeis21ReturnGoodEvening() {
         int time = 21;
+        int commit = 1;
         String expected = "Good evening";
         String answer = Greeter.getGreeting(time);
 
